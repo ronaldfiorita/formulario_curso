@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas.com</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <div class="verde"></div>
+    <div class="azul">
+        <div class="laranja">
+            <form method="post" action="send.php"form> onsubmit="return check_form()">
+           <label>no me</label><input type="text" maxlength="40"> name="nome" id=nome"><Br>
+            <label>Telefone:</label><input type="text" maxlength="12" name="telefone"placeholder="11999999998">
+            <label>Data de Nascimento:</label><input type="date" name="dtNascimento" id="dataNascimento">
+            <label>Genero:</label>
+            <label>masculino:</label><input type="radio" name="genero" value="Masculino">
+            <label>Feminino</label><input type="radio" name="genero" value="Feminino">
+            <label>outro</label><input type="radio" name="genero" value="genero">
+            <label>endereco comoleto:</label>
+            <input type="text" maxlength="200" name="enderecocompleto" id="address"><BR>
+            <label>escolha a vaga a se candidatar</label>
+            <select name="vaga" id="vaga">
+                <option value="0" selected>faça sua escolha</option>
+                <option value="1420">programador front-end</option>
+                <option value="1500">programador back-end</option>
+                <option value="2140">cientista de dados</option>
+                <option value="3247">design ux/ui</option>
+                </select>
+                <input type="submit" value="enviar" id="form_button">
+        </form>
+
+
+
+        </div>
+        <div class="rosa">
+            <div class="marron"></div>
+            <div class="azul_cinza"></div>
+            <div class="violeta"></div>
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
+</body>
+</html>

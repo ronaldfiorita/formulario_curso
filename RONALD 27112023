@@ -1,0 +1,21 @@
+<html>
+    <form method="post" action="send.php" onsubmit="return check_form()">
+        <label>nome</label><input type="text" maxlength="40" name="nome" id="nome">
+        <label>tipo do contato</label><input type="text" maxlength="1000" name="contato" id="contato">
+        <label>duvida</label><input type="text"  maxlength="1000" name="duvida" id="duvida">
+        <label>sugestao</label><input type="test" maxlength="1000" name="sugestao" id="sugestao">
+        <label>critica</label><input type="test" maxlength="1000" name="critica" id="critica">
+        <label>Telefone:</label><input type="text" maxlength="12" name="telefone" id="telefone">
+        <label>Genero:</label>
+        <label>masculino:</label><input type="text" name="genero" nome="Masculino" id="masaculino">
+        <label>Feminino</label><input type="text" name="genero" nome="Feminino" id="feminino">
+        <label>outro</label><input type="text" name="genero" nome="generooutro" id="outro">
+        <labe>mensagen</label><input type="text" name="mensagen" nome="mensagem" id="mensagen">
+        <option value="0" selected>faça sua escolha</option>
+                      <option value="1420">programador front-end</option>
+                <option value="1580">programador back-end</option>
+                <option value="2140">cientista de dados</option>
+                <option value="3247">design ux/ui</option>
+                </select>
+                <input type="submit" value="enviar" id="form_button">
+        </form>

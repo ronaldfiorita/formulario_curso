@@ -1,0 +1,64 @@
+function validacao(){ 
+var nome =document.getElementById("nome").value;
+var tipodecontato =document.getElementById("tipodecontato").value;
+var duvida =document.getElementById("duvida").value;
+var sugestao =document.getElementById("sugestao").value;
+var critica =document.getElementById("critica").value;
+var tel =document.getElementById("telefone").value;
+var genero =document.getElementById("genero").value;
+var masculino=document.getElementById("masculino").value
+var feminino=document.getElementById("feminino").value
+var outro=document.getElementById("outro").value
+var mensagem=document.getElementById("mensagem").value
+
+var opGenero1=document.getElementById('rgenero').checked
+
+if(nome==''){
+    alert("preeencha o nome");
+    return false;
+}
+
+if(tipo de contato==''){
+    alert("Preeencha o tipo de contato");
+    return false;
+
+}
+if(duvida==''){
+    alert("Preencha a duvida");
+    return false;
+
+}
+if(sugestao==''){
+    alert("Preencha a sugestao");  
+    return false;
+         
+}
+if(critica==''){
+    alert("preencha a critica");
+    return false;
+
+if(tel==''){
+    alert("Preencha o telefone");
+    return false;
+
+}    
+if(genero==''){
+    alert("Preencha o genero");
+    return false;
+}
+if(masculino==''){
+    alert("Preencha Masculino");
+    return false;
+}
+if(feminino==''){
+    alert("Preencha Feminino");
+    return false;
+}
+if(outro==''){
+    alert("Preeencha outro");
+    return false;
+}
+if(mensagem==''){
+    alert("Preencha mensagem");
+    return false;
+}
